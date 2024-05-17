@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">CropCare</string>
+
+
+    <!--Home-->
+
+    <string name="h_topic"> Find Solutions For Your Pest Problems</string>
+    <string name="h_button">Find Solutions</string>
+    <string name="h_subtopic">Your Plans</string>
+    <string name="profile_p">profile</string>
+    <string name="menue_b">menue</string>
+
+
+    <!-- List  -->
+    <string name="fname">Homagama Field</string>
+    <string name="pest">Pest :</string>
+    <string name="date">Identified :</string>
+    <string name="level">Risk Level :</string>
+    <string name="treatment">Treatment :</string>
+    <string name="status">Status :</string>
+    <string name="descp">Description</string>
+
+
+    <!--Login in Signup-->
+
+    <string name="login">Log In</string>
+    <string name="header_text">Sign Up</string>
+    <string name="label_name">Name:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_password">Password:</string>
+    <string name="label_confirm_password">Confirm Password:</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="hint_confirm_password">Re-enter your password</string>
+    <string name="button_sign_up">Sign Up</string>
+
+
+    <string name="pair_1_text_1">Name:</string>
+    <string name="pair_2_text_1">Brand:</string>
+    <string name="pair_3_text_1">Treatment Method:</string>
+    <string name="pair_4_text_1">Solvent:</string>
+    <string name="calulate">Calculate Treatment</string>
+    <string name="procced">Schedule</string>
+    <string name="sch_title">Treatment Schedule</string>
+    <string name="current_sch">Current Schedule</string>
+    <string name="explore">Explore</string>
+    <string name="board1">\n\n\"Identify the pests and acquire knowledge about the problems they cause\"</string>
+    <string name="button_text">next</string>
+    <string name="board2">\n\"Make plans and keep up with the pest control with revolutionary treatment schedules\"</string>
+    <string name="crop_front">Get Notified On \nPest Control Techniques \n\n</string>
+    <string name="form_title">Enter Your Details</string>
+    <string name="suggest">Suggested Pesticide</string>
+    <string name="profile_picture">profile\n</string>
+    <string name="profile_name">Your Name</string>
+    <string name="profile_email">chamath@gmail.com</string>
+    <string name="district">District</string>
+    <string name="search">search</string>
+    <string name="dose">Select The Treatment Dose</string>
+    <string name="field">Field Name</string>
+
+    <string name="pestColor">Color Of Pest</string>
+    <string name="numOflegs">Number Of Legs</string>
+    <string name="identified">First Appeared In\n</string>
+    <string name="Y">Yes</string>
+    <string name="N">No</string>
+    <string name="pestwings">Wings Are Present</string>
+    <string name="enterArea">Enter Area Of Crop</string>
+    <string name="form_pest">Identify Pest</string>
+    <string name="skip">Skip</string>
+    <string name="explore_the_perfect_products">Explore the perfect products.</string>
+
+     <!--Products-->
+    <string name="brand_txt">CIC</string>
+    <string name="treatment_txt">Spary Directly</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pest_description">Pest description</string>
+    <string name="descp_pest">"After hatching from eggs, the larvae of rice gall midges tunnel into the rice plant tissue, particularly the growing points and meristematic tissue. \n\nThis causing symptoms such as dead hearts or white heads, where the central shoot dies and becomes discolored. "</string>
+
+
+</resources>

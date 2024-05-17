@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="btnClick"
+    tools:context=".Pest_Form">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="406dp"
+        android:layout_height="706dp"
+        android:padding="20dp"
+        android:scrollbars="none"
+
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="412dp"
+                android:layout_height="115dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="317dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="44dp"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/form_title"
+                    android:textColor="@color/Dgreen"
+                    android:textSize="28dp" />
+
+                <ImageView
+                    android:id="@+id/cancel"
+                    android:layout_width="43dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="44dp"
+                    app:srcCompat="@drawable/macos_close__1_" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="384dp"
+                android:layout_height="146dp"
+                android:layout_marginVertical="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+
+                    app:srcCompat="@drawable/rectangle_321" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+
+                    app:srcCompat="@drawable/rectangle_322__1_" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+
+                    app:srcCompat="@drawable/rectangle_323" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/p_title"
+                android:layout_width="346dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="@string/pest_description"
+                android:textColor="@color/Dgreen"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/p_des"
+                android:paddingLeft="10dp"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="@string/descp_pest"
+                android:textColor="@color/Dgreen"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="346dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="@string/suggest"
+                android:textColor="@color/Dgreen"
+                android:textSize="28dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:defaultFocusHighlightEnabled="true"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:background="@drawable/green_shape"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView13_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/rectangle_340" />
+
+                    <TextView
+                        android:id="@+id/treatment1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/inter_semibold"
+                        android:padding="23dp"
+                        android:text="@string/treatment"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:defaultFocusHighlightEnabled="true"
+                android:elevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:background="@drawable/green_shape"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="241dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/rectangle_340" />
+
+                    <TextView
+                        android:id="@+id/treatment2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/inter_semibold"
+                        android:padding="23dp"
+                        android:text="@string/treatment"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/procced"
+
+                android:layout_width="208dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="112dp"
+                android:backgroundTint="@color/Dgreen"
+                android:fontFamily="@font/inter_bold"
+                android:onClick="nextClick"
+                android:text="@string/button_text"
+                android:textSize="24dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:background="@color/Lgreen"
+        android:orientation="horizontal"
+
+        android:padding="15dp"
+        app:flow_horizontalAlign="start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|left"
+            android:contentDescription="@string/h_button"
+            android:onClick="btnClick"
+            app:srcCompat="@drawable/hut" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0"
+            android:contentDescription="@string/profile_p"
+            android:onClick="profileClick"
+            app:srcCompat="@drawable/ellipse_14__2_" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_gravity="end"
+            android:background="@drawable/bottom_nav"
+            app:menu="@menu/bottomnav">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
